@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Warna latar belakang cerah */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* Latar belakang putih untuk konten */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 350px; /* Lebar kontainer */
+}
+
+h1 {
+    color: #333; /* Warna judul */
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #eb0707; /* Warna hijau cerah */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ca0819; /* Warna hijau gelap saat hover */
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Gaya untuk kolom hasil */
+.result-column {
+    display: block; /* Awalnya tidak terlihat */
+    background-color: #da0707d8; /* Latar belakang kolom hasil */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.result-column p {
+    margin: 5px 0; /* Jarak antar paragraf */
+}
